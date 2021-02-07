@@ -10,17 +10,17 @@
 		let content = {
 			first_name: "Franco", /* <- write your first name here */
 			last_name: "Mezzano", /* <- write your last name here */
-			position: "B2B Account Manager at Amazon", /* <- write your title here */
-			email: "francomezzano@gmail.com", /* <- write your email here */
+			position: "Software & Machine Learning Enthusiast", /* <- write your title here */
+			email: "nickcarmont8@gmail.com", /* <- write your email here */
 			allow_download_resume: false, /* <- write "false" if you want them to email you to ask for your resume or "true" if you want them to download your resume */
 			resume_path: "resume.pdf", /* if you wrote "true" above in "allow_download_resume", write here the filename of your resume */
-			phone: "+34 675246282", /* <- write your phone number here */
+			phone: "+44 7786107927", /* <- write your phone number here */
 			main_pic: "img/header-img.png", /* <- write the filepath to your header image here (shown later in tutorial) */
 			contact_pic: "img/about-img.jpg", /* <- write the filepath to your contact section image here (shown later in tutorial) */
 			logo_pic: "", /* <- This you don't need anymore! */
-			banner_emojis: /* write here some emojis that will go in the header */
+			banner_emojis: "🤓🤖", /* write here some emojis that will go in the header */
 			/* write below a short description of you that will go in the bottom of the website */
-			aboutMe: "Born in Argentina, raised in Chile and Switzerland, living in Madrid, Spain. Tennis fanatic."
+			aboutMe: "I'm a hackathon fanatic (attended 10+), love football especially FC Barcelona. Half Spanish, half Australian. Grew up in the Netherlands. Spend Friday nights coding and on YouTube."
 		}
 
 
@@ -30,62 +30,109 @@
 
 			/* NEW SECTION */
 			{
-				section_title: "Work Experience", /* <- write here the first section title of your website (example: "Work experience", "projects"...) */
-				emoji: "💼", /* <- write here an optional emoji (will go next to the section_title) */
+				section_title: "Recent Projects", /* <- write here the first section title of your website (example: "Work experience", "projects"...) */
+				emoji: "👨‍💻", /* <- write here an optional emoji (will go next to the section_title) */
 				section_description: "👉Click 👈the cards below 👇to learn more", /* <- write here an optional sub-description of the section (example: "here's some work I've done..") */
 				/* Below are the "cards" - these are the small square info cards for each section */
 				cards: [
 					{
-						name: "Amazon", /* <- write here the name of the card (example: for a job it could be "Amazon") */
-						image: "img/amazon.png"", /* <- write the filepath to your card image (covered later in tutorial) or leave as "" if you don't have one */
-						url: "https://business.amazon.es//", /* <- write the url you would like to link (or leave as "") */
-						description: "B2B Account Manager - Amazon Business", /*<- write here a description of the card */
-						sub_description: "Recruit, onboard, and develop new B2B Sellers on Amazon Business.", /*<- write here a sub-description if you like (else leave it as "") */
+						name: "NetZero", /* <- write here the name of the card (example: for a job it could be "Amazon") */
+						image: "img/Color.png", /* <- write the filepath to your card image (covered later in tutorial) or leave as "" if you don't have one */
+						url: "https://netzero.world/", /* <- write the url you would like to link (or leave as "") */
+						description: "Track and offset your carbon footprint", /*<- write here a description of the card */
+						sub_description: "🏆Pioneer, Fidelity F4G, Clinton GIU", /*<- write here a sub-description if you like (else leave it as "") */
 					},
 
 					/* 👇👇👇 These are all the same - change them similar to the one above */
 					{
-						name: "Leonyte Biosystems",
+						name: "Mask Share UK",
 						image: "img/logo-copy.png",
-						url: "https://www.leonyte.com/,
-						description: "Business Development Intern",
-						sub_description: "New Partner Acquisition for Rapid Pathogenic bacteria detection testing",
+						url: "https://maskshare.co.uk/",
+						description: "Crowdsourcing website for PPE & face masks",
+						sub_description: "😷1800+ PPE donated, featured in press",
 					},
 					{
-						name: "Nestlé,
+						name: "FitPic",
 						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Customer and Sales Intern",
-						sub_description: "",
+						url: "https://fitpic.io/",
+						description: "Measuring Body Fat Percentage with neural networks",
+						sub_description: "🏆Cal Hacks Berkeley Fellowship",
 					},
 					/* 🔽 If you want to delete a card - just delete everything within curly braces (and the comma) so: "{...}," */
 					/*👇 For example delete the things between the pointers here 👇  (not including these comments) */
-		
+					{
+						name: "Silicon Valet",
+						image: "img/silicon-valet.png",
+						url: "https://www.hackerearth.com/challenges/hackathon/cal-hacks-50/dashboard/a14712b/submission/",
+						description: "Computer Vision Car Parking App",
+						sub_description: "🏆$1000 winner in largest student hackathon",
+					},
 					/* 👆 and here 👆 (you can do the same for others or add new cards by copy-pasting this) */
+					{
+						name: "Toxic Tweet",
+						image: "img/twitter.png",
+						url: "https:*github.com/ncarmont/toxic-tweet/blob/master/README.MD",
+						description: "Hate speech detector for Twitter with logistic regression",
+						sub_description: "",
+					},
+					{
+						name: "Augmently",
+						image: "img/augmently-small.png",
+						url: "https://pypi.org/project/Augmently/",
+						description: "An Open Source image Data Augmentation library for DL",
+						sub_description: "",
+					},
 				]
 			},
 
 			/* NEW SECTION */
 			{
-				section_title: "Associations",
+				section_title: "Work",
 				emoji: "💼",
 				section_description: "Where I've been working recently",
 				cards: [
 					{
-						name: "Nova Talent",
+						name: "Gardenia",
 						image: "img/gardenia.png",
-						url: "https://novatalent.com",
-						description: "Active Member",
-						sub_description: "Global by-invitation-only top-talent network ",
+						url: "https://gardeniatech.com",
+						description: "Software Engineer",
+						sub_description: "Developing fintech software using AI to help companies optimise their finances",
 					},
 					{
-						name: "Talent Street",
+						name: "Amazon",
 						image: "img/amazon.png",
-						url: "https://www.equiposytalento.com/talentstreet/",
-						description: "Member",
-						sub_description: "",
+						url: "https://amazon.com",
+						description: "Software Engineer",
+						sub_description: "Developed code on the Amazon website & apps for fashion products",
 					},
-					,
+					{
+						name: "NetZero",
+						image: "img/Color.png",
+						url: "https://netzero.world/",
+						description: "Co-founder",
+						sub_description: "Built a banking app that tracks and offsets your carbon footprint",
+					},
+					{
+						name: "FitPic",
+						image: "img/fitpic-logo-bg.png",
+						url: "https://fitpic.io/",
+						description: "Software and Machine Learning Engineer",
+						sub_description: "Developing a Tensorflow model for visual body fat prediction",
+					},
+					{
+						name: "Nike",
+						image: "img/nike.jpg",
+						url: "",
+						description: "Software Engineering Intern",
+						sub_description: "Built Data Visualisation tool for A/B testing platform used on 180K+ users",
+					},
+					{
+						name: "PwC",
+						image: "img/pwc.jpg",
+						url: "https://www.facebook.com/SEWF2019/videos/2085655315081033/",
+						description: "The Young Talents Program",
+						sub_description: "Week-long enterprise Program on sustainabible business practices",
+					},
 
 				]
 			},
@@ -94,32 +141,32 @@
 			/* To add sections - just simply copy paste, but to To Remove sections- just simply delete */
 			/* what is in between these pointers 👇 (not including these comments) */
 			{
-				section_title: "Education",
+				section_title: "Research",
 				emoji: "🔬",
-				section_description: "",
+				section_description: "Some unpublished papers I've worked on",
 				cards: [
-{
-						name: "Power MBA",
-						image: "",
-						url: "https://thepowermba.com",
-						description: "eCommerce and Digital Marketing",
-						sub_description: "Present",
-					},
+
 					{
-						name: "ESADE Business School",
+						name: "Deep Learning",
 						image: "img/deeplearning.jpg",
-						url: "https://www.esade.edu/en",
-						description: "Bachelor in Business Administration",
-						sub_description: "2014-2018",
+						url: "",
+						description: "Generating realistic fake skin cancer images using GANs",
+						sub_description: "",
 					},
 					{
-						name: "The Hong Kong University of Science and Technology",
+						name: "Deep Learning",
 						image: "img/caffe-net.png",
-						url: "https://hkust.edu.hk/home",
-						description: "Exchange Semester",
-						sub_description: "2018",
+						url: "",
+						description: "Improving Facial Age Classification with our adapted Caffe Net CNN",
+						sub_description: "",
 					},
-					,
+					{
+						name: "Recommender Systems",
+						image: "img/Reddit.png",
+						url: "",
+						description: "Reddit post popularity prediction with sentiment analysis and collaborative filtering",
+						sub_description: "",
+					},
 				]
 			},
 
@@ -287,10 +334,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
-
 		  `
 		</script>
 
@@ -304,8 +347,6 @@
 		for (let i = 0; i < sections.length; i++) {
 
 			document.getElementById("content-sections").innerHTML += `
-
-
 			<section data-aos-easing="linear"
     data-aos-duration="1000"data-aos="fade-up" class="project-area section-gap " id="project-${i}" style="background:${i % 2 == sections.length % 2 ? '#fff' : 'f9f9ff'}">
 		<div class="container">
@@ -320,10 +361,8 @@
 		</div>
 		<div class="col-lg-12" style="margin-top:-40px;">
 			<div id="project-wrapper-${i}" class=" wrapper" style="background:transparent;">
-
 			</div>
 			</div>
-
 			</section>
 			`
 
@@ -333,34 +372,27 @@
 				if (proj.sub_description) {
 
 					document.getElementById(`project-wrapper-${i}`).innerHTML += `<a class="box project" href = ${proj.url ? proj.url : '#'}
-
 					${proj.url ? 'target="_blank" ' : null} style = "${proj.image ? 'background-image: url(' + proj.image + ');' : ''} border: 1px solid #DCDCDC;
 					background - color: white; background-size: cover; background-repeat: no-repeat; background-position: center center; ">
 						<div class="box-text" > <h3 class="box-text-title" style="margin-bottom: 5%; font-size: 20px;">${proj.name}
 							${proj.url ? '<img src="img/link-white.png" style="margin-left: 5px;width:20px; height:20px" />' : ''}
 							</h3> ${proj.description
 						}
-
 					<div style="color:white; margin-top: 10%; font-size:${proj.sub_description.length > 40 ? '10px' : '14px'};">${proj.sub_description
 						}
-
 					</div> </div > </a > `
 				}
 
 				else {
 
 					document.getElementById(`project-wrapper-${i}`).innerHTML += `<a class="box a"href = ${proj.url ? proj.url : '#'}
-
 					${proj.url ? 'target="_blank" ' : null} style = "${proj.image ? 'background-image: url(' + proj.image + ');' : ''} border: 1px solid #DCDCDC;
 					background-size: cover; background-repeat: no-repeat; background-position: center center; ">
 						<div class="box-text" > <h3 class="box-text-title" style="font-size: 20px;">${proj.name
 						}
-
-
 						${proj.url ? '<img src="img/link-white.png"style="margin-left: 5px;width:25px; height:25px" />' : ''}
 							</h3> ${proj.description
 						}
-
 					</div >`;
 				}
 			}
@@ -375,14 +407,12 @@
 		<script>
 
 			document.getElementById("resume").innerHTML += `
-
 						<div class="container" >
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-20 col-lg-12">
 							<div class="title text-center">
 								<h1 class="mb-10 margin-top:-80px;">💼 Resume</h1>
 								<p>Want to see my resume?</p>
-
 										${content.allow_download_resume ?
 					`<div class="myself-wrap" style="background-color: transparent; margin-top:-40px;">
 											<div class="desc"><a class="mt-30 text-uppercase talk-btn" style="transform:scale(1.3)"
@@ -390,7 +420,6 @@
 												⬇️Download My Resume
 								</a></div>`
 					:
-
 					`<div class="myself-wrap" style="background-color: transparent; margin-top:-40px;">
 											<div class="desc"><a class="mt-30 text-uppercase talk-btn" style="transform:scale(1.3)"
 												href="mailto:${content.email}?subject=Hi ${content.first_name} - Send Me Your Resume :)">
@@ -398,14 +427,11 @@
 									To You</span>
 								</a></div>`
 				}
-
 							</div>
 						</div>
 					</div>
 				</div >
 		</div >
-
-
 			`
 
 
@@ -460,7 +486,6 @@
 		<script>
 
 			document.getElementById("footer").innerHTML += `
-
 				<div class="container" >
 					<div class="row">
 						<div class="col-lg-5  col-md-6 col-sm-6">
